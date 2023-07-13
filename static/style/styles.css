@@ -89,3 +89,105 @@ footer {
     padding: 10px;
     text-align: center;
 }
+
+/* Login and Register Form Styles */
+#login-form, #register-form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    margin-top: 10%;
+    margin-bottom: 18vh;
+    background: #f2f2f2;
+    border-radius: 5px;
+  }
+  
+  h2 {
+    text-align: center;
+  }
+  .hyper_link{
+    font-weight: 800;
+  }
+  input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    outline: #ccc;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  button {
+    width: 100%;
+    padding: 10px;
+    background: #4CAF50;
+    color: #fff;
+    margin-top: 10px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  textarea:focus,
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="datetime"]:focus,
+input[type="datetime-local"]:focus,
+input[type="date"]:focus,
+input[type="month"]:focus,
+input[type="time"]:focus,
+input[type="week"]:focus,
+input[type="number"]:focus,
+input[type="email"]:focus,
+input[type="url"]:focus,
+input[type="search"]:focus,
+input[type="tel"]:focus,
+input[type="color"]:focus,
+.uneditable-input:focus {   
+  border-color: rgba(126, 239, 104, 0.8);
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(126, 239, 104, 0.6);
+  outline: 0 none;
+}
+button:hover {
+    background: #45a049;
+}
+
+  #auction {
+    margin: auto;
+    width: 550px;
+    margin-bottom: 20px;
+  }
+  
+  #auction h2 {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  #auction p {
+    margin-bottom: 10px;
+  }
+  
+  #bid-form label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  #bid-form input[type="number"] {
+    width: 100px;
+  }
+  
+  #bid-form button {
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  #bid-history {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  #bid-history li {
+    margin-bottom: 5px;
+  }
+  
